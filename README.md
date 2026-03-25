@@ -191,6 +191,7 @@ This matters because;
 Linux helps track issues through:
 
    - System logs
+     
    - Application logs
 
 Tools:
@@ -234,7 +235,7 @@ Linux integrates well with tools like Git:
    - Collaborate on code
      
    - Roll back when needed
-   - 
+     
 ## Handling Large-Scale Data
 
    - Data engineering is about scale
@@ -243,7 +244,7 @@ Linux supports:
 
    - Parallel processing
      
-   -Distributed computing
+   - Distributed computing
 
 This leads to;
 
