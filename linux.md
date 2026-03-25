@@ -16,202 +16,262 @@ From servers to cloud platforms, from small scripts to large-scale pipelines, Li
     
   - Big data tools are built to run on Linux
 
-2. The Command Line Is Where Real Work Happens
-Data engineers rarely rely on graphical interfaces
-Most operations happen through the terminal
+## The Command Line Is Where Real Work Happens
 
-Common real-world use:
+   - Data engineers rarely rely on graphical interfaces
+     
+   - Most operations happen through the terminal
 
-Viewing logs using tail
-Searching data with grep
-Transforming data with awk and sed
+### Common real-world use:
 
-Why it matters:
+   - Viewing logs using tail
+     
+   - Searching data with grep
+   - 
+   - Transforming data with awk and sed
 
-Faster than using dashboards
-Works efficiently with very large files
-Gives direct control over data
-3. Handling Raw Data Files Efficiently
-Data often arrives as:
-CSV
-JSON
-Log files
+## Handling Raw Data Files Efficiently
 
-Linux tools make it easy to:
+ Data often arrives as:
+   
+   - CSV
+     
+   - JSON
+     
+   - Log files
 
-Move files (cp, mv)
-Delete unnecessary data (rm)
-Check file sizes (du, df)
+## Linux tools make it easy to:
 
-Real-world example:
+   - Move files (cp, mv)
+     
+   - Delete unnecessary data (rm)
+     
+   - Check file sizes (du, df)
 
-A pipeline downloads raw data → stores it → processes it → archives it
-All of this is handled using Linux file systems
-4. Automation Through Shell Scripting
-Repetitive tasks are automated using Bash scripts
+### Real-world example:
 
-Typical tasks automated:
+   - A pipeline downloads raw data → stores it → processes it → archives it
 
-Fetching data daily
-Cleaning temporary files
-Running ETL pipelines
+   - All of this is handled using Linux file systems
 
-Why this is powerful:
+##  Automation Through Shell Scripting
 
-Reduces manual effort
-Ensures consistency
-Saves time at scale
-5. Scheduling Data Pipelines
-Data workflows run on schedules
+   - Repetitive tasks are automated using Bash scripts
 
-Linux tools like cron are used to:
+### Typical tasks automated:
 
-Run jobs at specific times
-Automate recurring processes
+   - Fetching data daily
+     
+   - Cleaning temporary files
+     
+   - Running ETL pipelines
 
-Example:
+### Why this is powerful:
 
-Data ingestion runs every midnight
-Reports are generated every morning
+   - Reduces manual effort
+     
+   - Ensures consistency
+     
+   - Saves time at scale
 
-This is how pipelines run without human intervention.
+## Scheduling Data Pipelines
 
-6. Monitoring and Managing Processes
-Data jobs can run for hours
-Some consume heavy resources
+   - Data workflows run on schedules
 
-Linux helps monitor this using:
+   - Linux tools like cron are used to:
 
-top / htop → CPU and memory usage
-ps → running processes
+   - Run jobs at specific times
+     
+   - Automate recurring processes
 
-Real-world use:
+### Example:
 
-Detecting slow jobs
-Killing failed processes
-Optimizing performance
-7. Moving Data Between Systems
-Data rarely stays in one place
+   - Data ingestion runs every midnight
+     
+   - Reports are generated every morning
 
-Linux tools make data transfer simple:
+   - This is how pipelines run without human intervention.
 
-scp → secure file transfer
-rsync → efficient syncing
-curl / wget → pulling data from APIs
+##  Monitoring and Managing Processes
+   - Data jobs can run for hours
+     
+   - Some consume heavy resources
 
-Example:
+   - This is monitored through:
 
-Pulling data from an external API
-Sending processed data to another server
-8. Running Big Data Tools
-Most data tools are designed for Linux:
-Apache Spark
-Hadoop
-Kafka
+   - top / htop → CPU and memory usage
+   - ps → running processes
 
-What this means:
+### Use case examples
 
-Clusters run on Linux
-Jobs are submitted from Linux terminals
-Distributed systems depend on Linux
-9. Linux in Cloud Environments
-Cloud platforms are essentially Linux machines at scale
+   - Detecting slow jobs
+     
+   - Killing failed processes
+     
+   - Optimizing performance
+   - 
+##  Moving Data Between Systems
 
-Data engineers use Linux to:
+   - Data rarely stays in one place
 
-Deploy pipelines
-Manage virtual machines
-Run containerized applications
+   - Linux tools make data transfer simple:
 
-Tools involved:
+   - scp → secure file transfer
+     
+   - rsync → efficient syncing
+     
+   - curl / wget → pulling data from APIs
 
-Docker
-Kubernetes
-10. Managing Environments and Dependencies
-Different projects require different setups
+   - Example:
+
+   - Pulling data from an external API
+ 
+   - Sending processed data to another server
+     
+## Running Big Data Tools
+
+### Examples of data tools designed for Linux:
+     
+   - Apache Spark
+     
+   - Hadoop
+     
+   - Kafka
+
+where;
+
+   - Clusters run on Linux
+
+   - Jobs are submitted from Linux terminals
+
+   - Distributed systems depend on Linux
+
+## Linux in Cloud Environments
+
+   - Cloud platforms are essentially Linux machines at scale
+
+   - Data engineers use Linux to:
+
+   - Deploy pipelines
+     
+   - Manage virtual machines
+     
+   - Run containerized applications
+
+###Tools involved:
+
+   - Docker
+     
+   - Kubernetes
+     
+## Managing Environments and Dependencies
+
+   - Different projects require different setups
 
 Linux supports:
 
-Package managers (apt, yum)
-Virtual environments
+   - Package managers (apt, yum)
+     
+   - Virtual environments
 
-Why this matters:
+This matters because;
 
-Prevents conflicts
-Keeps projects isolated
-Improves reproducibility
-11. Logging and Debugging
-Things break. Pipelines fail. Errors happen.
+   - It prevents conflicts
+     
+   - It keeps projects isolated
+     
+   - it Improves reproducibility
+
+##Logging and Debugging
+
+   - Things break. Pipelines fail. Errors happen.
 
 Linux helps track issues through:
 
-System logs
-Application logs
+   - System logs
+   - Application logs
 
 Tools:
 
-journalctl
-Log files in /var/log
+   - journalctl
+     
+   - Log files in /var/log
 
 Real-world benefit:
 
-Quickly identify what went wrong
-Fix issues without guessing
-12. Security and Access Control
-Data is sensitive
+   - Quickly identify what went wrong
+     
+   - Fix issues without guessing
+
+ ##Security and Access Control
+ 
+   -Data is sensitive
 
 Linux provides:
 
-File permissions
-User access control
-Secure remote access (SSH)
+   - File permissions
+   - 
+   - User access control
+     
+   - Secure remote access (SSH)
 
 Example:
 
-Restricting access to critical datasets
-Controlling who can run pipelines
-13. Collaboration and Version Control
-Data engineers work in teams
+   - Restricting access to critical datasets
+     
+   - Controlling who can run pipelines
+
+ ##Collaboration and Version Control
+ 
+   - Data engineers work in teams
 
 Linux integrates well with tools like Git:
 
-Track changes
-Collaborate on code
-Roll back when needed
-14. Handling Large-Scale Data
-Data engineering is about scale
+   - Track changes
+
+   - Collaborate on code
+     
+   - Roll back when needed
+   - 
+##Handling Large-Scale Data
+
+   - Data engineering is about scale
 
 Linux supports:
 
-Parallel processing
-Distributed computing
+   - Parallel processing
+   - 
+   -Distributed computing
 
-Result:
+This leads to;
 
-Faster processing
-Ability to handle massive datasets
-15. A Real-World Pipeline (Putting It All Together)
+   - Faster processing
+     
+   - Ability to handle massive datasets
+   - 
+## A Real-World Pipeline example
 
-A typical workflow looks like this:
+1. Fetch data using curl
+   
+2. Store it in files
+   
+3. Clean it using scripts
+   
+4. Load into a database
+   
+5. Schedule using cron
 
-Fetch data using curl
-Store it in files
-Clean it using scripts
-Load into a database
-Schedule using cron
-Monitor logs
+6. Monitor logs
 
 All of this runs inside a Linux environment.
 
-16. Why Linux Matters for Data Engineers
-It’s everywhere in production systems
-It enables automation and scalability
-It gives full control over data workflows
+## Why Linux Matters for Data Engineers
 
-In simple terms:
-If you want to work in real-world data engineering, Linux is not optional.
+   - It’s everywhere in production systems
+     
+   - It enables automation and scalability
+     
+   - It gives full control over data workflows
 
-17. Challenges to Expect
-Command line can feel difficult at first
 Debugging requires patience
 Requires continuous practice
