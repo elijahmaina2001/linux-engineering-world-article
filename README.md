@@ -27,7 +27,7 @@ From servers to cloud platforms, from small scripts to large-scale pipelines, Li
    - Viewing logs using tail
      
    - Searching data with grep
-   - 
+     
    - Transforming data with awk and sed
 
 ## Handling Raw Data Files Efficiently
@@ -93,6 +93,7 @@ From servers to cloud platforms, from small scripts to large-scale pipelines, Li
    - This is how pipelines run without human intervention.
 
 ##  Monitoring and Managing Processes
+
    - Data jobs can run for hours
      
    - Some consume heavy resources
@@ -100,6 +101,7 @@ From servers to cloud platforms, from small scripts to large-scale pipelines, Li
    - This is monitored through:
 
    - top / htop → CPU and memory usage
+     
    - ps → running processes
 
 ### Use case examples
@@ -109,7 +111,7 @@ From servers to cloud platforms, from small scripts to large-scale pipelines, Li
    - Killing failed processes
      
    - Optimizing performance
-   - 
+     
 ##  Moving Data Between Systems
 
    - Data rarely stays in one place
@@ -158,7 +160,7 @@ where;
      
    - Run containerized applications
 
-###Tools involved:
+### Tools involved:
 
    - Docker
      
@@ -182,7 +184,7 @@ This matters because;
      
    - it Improves reproducibility
 
-##Logging and Debugging
+## Logging and Debugging
 
    - Things break. Pipelines fail. Errors happen.
 
@@ -203,14 +205,14 @@ Real-world benefit:
      
    - Fix issues without guessing
 
- ##Security and Access Control
+ ## Security and Access Control
  
    -Data is sensitive
 
 Linux provides:
 
    - File permissions
-   - 
+     
    - User access control
      
    - Secure remote access (SSH)
@@ -221,7 +223,7 @@ Example:
      
    - Controlling who can run pipelines
 
- ##Collaboration and Version Control
+ ## Collaboration and Version Control
  
    - Data engineers work in teams
 
@@ -233,14 +235,14 @@ Linux integrates well with tools like Git:
      
    - Roll back when needed
    - 
-##Handling Large-Scale Data
+## Handling Large-Scale Data
 
    - Data engineering is about scale
 
 Linux supports:
 
    - Parallel processing
-   - 
+     
    -Distributed computing
 
 This leads to;
@@ -248,7 +250,7 @@ This leads to;
    - Faster processing
      
    - Ability to handle massive datasets
-   - 
+     
 ## A Real-World Pipeline example
 
 1. Fetch data using curl
