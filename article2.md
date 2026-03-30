@@ -1,7 +1,7 @@
 # Understanding Data Modeling in Power BI
 ### Joins, Relationships, and Schemas
 
----
+<img width="1063" height="950" alt="image" src="/powerbi.jpeg" />
 
 ## 1. What Is Data Modeling?
 
