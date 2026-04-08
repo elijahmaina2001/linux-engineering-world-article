@@ -55,7 +55,6 @@ The embed code is a small snippet of HTML that tells a web page to load your Pow
   
     - A box appears with two things: a share link (for email) and an iFrame code (for websites). Copy the iFrame code.
 
-<img width="1063" height="950" alt="image" src="/powerbi-brower-article3.jpeg" />
 
 ### Step 4: Embed the Report on a Website
     - Open your HTML file in a code editor like VS Code.
@@ -66,7 +65,6 @@ The embed code is a small snippet of HTML that tells a web page to load your Pow
   
     - Save the file and open it in your browser. Your live report should load right there on the page.
 
-<img width="1063" height="950" alt="image" src="/powerbi-brower-article3.jpeg" />
 On WordPress
     - Open the page editor in WordPress.
   
