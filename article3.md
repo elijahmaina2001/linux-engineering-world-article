@@ -4,56 +4,58 @@
 
 <img width="1063" height="950" alt="image" src="/powerbi-article3.jpg" />
     
-    - Power BI is Microsoft's tool for turning data into visual stories.
+- Power BI is Microsoft's tool for turning data into visual stories.
 
-    - No one benefits from a report that is sitting on your laptop. Publishing makes it available online so that anyone, including your lecturer and team, may view it in a browser without the requirement for Power BI Desktop. Additionally, embedding takes it a step further by dropping your interactive, live report directly into a website, much like a movie player for data
+- No one benefits from a report that is sitting on your laptop. Publishing makes it available online so that anyone, including your lecturer and team, may view it in a browser without the requirement for Power BI Desktop. Additionally, embedding takes it a step further by dropping your interactive, live report directly into a website, much like a movie player for data
 
 ### Step 1: Create a Workspace
 
-    - Think of a workspace as a shared folder in the cloud. It's where your published report lives so others can find it.
+ - Think of a workspace as a shared folder in the cloud. It's where your published report lives so others can find it.
 
 Here's how to set one up:
 
-    - Go to app.powerbi.com and sign in with your Microsoft account.
+- Go to app.powerbi.com and sign in with your Microsoft account.
   
-    - On the left sidebar, click the Workspaces icon (it looks like a briefcase).
+- On the left sidebar, click the Workspaces icon (it looks like a briefcase).
   
-    - Scroll to the bottom of the panel and click + Create a workspace.
+- Scroll to the bottom of the panel and click + Create a workspace.
   
-    - Give it a clear name — something like Electronics Sales Dashboard works perfectly.
+- Give it a clear name — something like Electronics Sales Dashboard works perfectly.
   
-    - Optionally add a short description, then click Save.
+- Optionally add a short description, then click Save.
 
 <img width="1063" height="950" alt="image" src="/powerbi-saved-workspace-article3.jpeg" />
 
 
 ### Step 2: Publish Your Report
-    - Open your .pbix file in Power BI Desktop.
+
+- Open your .pbix file in Power BI Desktop.
   
-    - Make sure you're signed in — look for your name in the top-right corner. If it says Sign In, click it and enter your Microsoft credentials.
+- Make sure you're signed in — look for your name in the top-right corner. If it says Sign In, click it and enter your Microsoft credentials.
   
-    - Go to the Home tab in the ribbon and click the yellow Publish button (far right).
+- Go to the Home tab in the ribbon and click the yellow Publish button (far right).
   
-    - A dialog box appears asking where to publish. Select the workspace you just created.
+- A dialog box appears asking where to publish. Select the workspace you just created.
   
-    - 	Click Select and wait. It usually takes under a minute. When you see 'Publishing to Power BI succeeded!' — you're done!
+- Click Select and wait. It usually takes under a minute. When you see 'Publishing to Power BI succeeded!' — you're done!
 
 <img width="1063" height="950" alt="image" src="/powerbi-brower-article3.jpeg" />
 
 Click the link in the success message to open your report in the browser and confirm everything looks okay
 
 ### Step 3: Generate the Embed Code
+
 The embed code is a small snippet of HTML that tells a web page to load your Power BI report inside it. Here's how to get it:
 
- - Open your published report in app.powerbi.com.
+- Open your published report in app.powerbi.com.
   
-    - Click File (top-left) or the Share button, then hover over Embed report.
+- Click File (top-left) or the Share button, then hover over Embed report.
   
-    - From the submenu, select Publish to web (public).
+- From the submenu, select Publish to web (public).
   
-    - Read the warning — this makes your report viewable by anyone with the link, which is fine for an academic assignment. Click Create embed code.
+- Read the warning — this makes your report viewable by anyone with the link, which is fine for an academic assignment. Click Create embed code.
   
-    - A box appears with two things: a share link (for email) and an iFrame code (for websites). Copy the iFrame code.
+- A box appears with two things: a share link (for email) and an iFrame code (for websites). Copy the iFrame code.
 
 
 ### Step 4: Embed the Report on a Website
