@@ -1,6 +1,6 @@
 # Understanding Data Modeling in Power BI
 
-<img width="1063" height="950" alt="image" src="/powerbi.jpeg" />
+<img width="1063" height="950" alt="image" src="/powerbi.jpg" />
 
 ### Joins, Relationships, and Schemas
 
