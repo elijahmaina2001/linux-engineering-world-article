@@ -2,6 +2,8 @@
 
 ## What Is Power BI ?
 
+<img width="1063" height="950" alt="image" src="/article 3 .jpg" />
+    
     - Power BI is Microsoft's tool for turning data into visual stories.
 
     - No one benefits from a report that is sitting on your laptop. Publishing makes it available online so that anyone, including your lecturer and team, may view it in a browser without the requirement for Power BI Desktop. Additionally, embedding takes it a step further by dropping your interactive, live report directly into a website, much like a movie player for data
@@ -22,7 +24,7 @@ Here's how to set one up:
   
     - Optionally add a short description, then click Save.
 
-📸  Screenshot: The 'Create a workspace' dialog — fill in the name and click Save
+<img width="1063" height="950" alt="image" src="/powerbi saved workspace article3.jpg" />
 
 
 ### Step 2: Publish Your Report
