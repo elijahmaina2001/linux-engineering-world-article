@@ -2,7 +2,7 @@
 
 ## What Is Power BI ?
 
-<img width="1063" height="950" alt="image" src="/article 3 .jpg" />
+<img width="1063" height="950" alt="image" src="/powerbi-article3.jpg" />
     
     - Power BI is Microsoft's tool for turning data into visual stories.
 
@@ -24,7 +24,7 @@ Here's how to set one up:
   
     - Optionally add a short description, then click Save.
 
-<img width="1063" height="950" alt="image" src="/powerbi saved workspace article3.jpg" />
+<img width="1063" height="950" alt="image" src="/powerbi-saved-workspace-article3.jpeg" />
 
 
 ### Step 2: Publish Your Report
@@ -38,9 +38,7 @@ Here's how to set one up:
   
     - 	Click Select and wait. It usually takes under a minute. When you see 'Publishing to Power BI succeeded!' — you're done!
 
-📸  Screenshot: Power BI Desktop — the yellow Publish button in the Home ribbon
-
-📸  Screenshot: Success message after publishing completes
+<img width="1063" height="950" alt="image" src="/powerbi-brower-article3.jpeg" />
 
 Click the link in the success message to open your report in the browser and confirm everything looks okay
 
@@ -57,14 +55,7 @@ The embed code is a small snippet of HTML that tells a web page to load your Pow
   
     - A box appears with two things: a share link (for email) and an iFrame code (for websites). Copy the iFrame code.
 
-📸  Screenshot: File > Embed report > Publish to web (public)
-
-📸  Screenshot: The generated iFrame embed code — copy this whole block
-
-<iframe width="800" height="600"
-  src="https://app.powerbi.com/reportEmbed?reportId=..."
-  frameborder="0" allowFullScreen="true">
-</iframe>
+<img width="1063" height="950" alt="image" src="/powerbi-brower-article3.jpeg" />
 
 ### Step 4: Embed the Report on a Website
     - Open your HTML file in a code editor like VS Code.
@@ -75,10 +66,7 @@ The embed code is a small snippet of HTML that tells a web page to load your Pow
   
     - Save the file and open it in your browser. Your live report should load right there on the page.
 
-📸  Screenshot: iFrame code pasted into an HTML file in VS Code
-
-📸  Screenshot: The embedded Power BI report displaying live in a browser
-
+<img width="1063" height="950" alt="image" src="/powerbi-brower-article3.jpeg" />
 On WordPress
     - Open the page editor in WordPress.
   
@@ -100,5 +88,4 @@ Uploading Your .pbix File to GitHub
   
     - Copy the repo URL from your browser (e.g. github.com/yourname/electronics-sales-powerbi) and submit it.
 
-📸  Screenshot: GitHub repository with .pbix file and README uploaded
 
