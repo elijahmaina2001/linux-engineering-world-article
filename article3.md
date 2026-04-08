@@ -45,7 +45,7 @@ Click the link in the success message to open your report in the browser and con
 ### Step 3: Generate the Embed Code
 The embed code is a small snippet of HTML that tells a web page to load your Power BI report inside it. Here's how to get it:
 
-    - Open your published report in app.powerbi.com.
+ - Open your published report in app.powerbi.com.
   
     - Click File (top-left) or the Share button, then hover over Embed report.
   
@@ -57,33 +57,35 @@ The embed code is a small snippet of HTML that tells a web page to load your Pow
 
 
 ### Step 4: Embed the Report on a Website
-    - Open your HTML file in a code editor like VS Code.
+
+- Open your HTML file in a code editor like VS Code.
   
-    - Find the spot in the <body> where you want the report to appear.
+- Find the spot in the <body> where you want the report to appear.
   
-    - Paste your iFrame code there. Wrap it in a <div> if you want to add a heading above it.
+- Paste your iFrame code there. Wrap it in a <div> if you want to add a heading above it.
   
-    - Save the file and open it in your browser. Your live report should load right there on the page.
+- Save the file and open it in your browser. Your live report should load right there on the page.
 
 On WordPress
-    - Open the page editor in WordPress.
+
+- Open the page editor in WordPress.
   
-    - Add a Custom HTML block.
+ - Add a Custom HTML block.
   
-    - Paste your iFrame code into the block.
+ - Paste your iFrame code into the block.
   
-    - Click Update or Publish — done.
+ - Click Update or Publish — done.
 
 Uploading Your .pbix File to GitHub
 
-    - Go to github.com and log in (or create a free account if you don't have one).
+ - Go to github.com and log in (or create a free account if you don't have one).
   
-    - Click the + icon (top right) → New repository. Name it something like electronics-sales-powerbi. Set it to Public and click Create repository.
+- Click the + icon (top right) → New repository. Name it something like electronics-sales-powerbi. Set it to Public and click Create repository.
   
-    - Inside the repo, click Add file → Upload files. Drag your .pbix file in and click Commit changes.
+- Inside the repo, click Add file → Upload files. Drag your .pbix file in and click Commit changes.
   
-    - Create a README.md file. Add a one-line description and paste your Power BI embed link so your instructor can view the live report directly from GitHub.
+- Create a README.md file. Add a one-line description and paste your Power BI embed link so your instructor can view the live report directly from GitHub.
   
-    - Copy the repo URL from your browser (e.g. github.com/yourname/electronics-sales-powerbi) and submit it.
+- Copy the repo URL from your browser (e.g. github.com/yourname/electronics-sales-powerbi) and submit it.
 
 
