@@ -1,7 +1,10 @@
 # Understanding Data Modeling in Power BI
+
+<img width="1063" height="950" alt="image" src="/powerbi.jpeg" />
+
 ### Joins, Relationships, and Schemas
 
-<img width="1063" height="950" alt="image" src="/powerbi.jpg" />
+---
 
 ## 1. What Is Data Modeling?
 
@@ -20,7 +23,7 @@ Data modeling is the process of organizing, connecting, and structuring your dat
 
 Before data lands in your model, you often need to merge tables in Power Query — and that is where joins come in. A join tells Power Query how to match rows from two tables.
 
-Here is a quick visual concept. Imagine Table A is your Orders table and Table B is your Products table. They share a column: `ProductID`.
+ Imagine Table A is your Orders table and Table B is your Products table. They share a column: `ProductID`.
 
 ### Types of Joins
 
